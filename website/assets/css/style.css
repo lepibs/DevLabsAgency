@@ -32,6 +32,10 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
+.text-big{
+  font-size: 4rem;
+  font-weight: bold;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -43,7 +47,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #191919;
+  background: #000;
 }
 
 #preloader:before {
@@ -396,7 +400,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: #222;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/hero-bg.jpg") center center;
+  background-size: cover;
+  /* background: #000; */
 }
 
 #hero .container {
@@ -542,7 +548,7 @@ section {
 }
 
 .section-bg {
-  background-color: #222;
+  background-color: #111;
 }
 
 .section-title {
@@ -803,6 +809,11 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+.skills{
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/skills-bg.jpg") fixed;
+  background-size: cover;
+}
+
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
