@@ -38,6 +38,12 @@ h6 {
   border-top: 1px solid #777;
   border-bottom: 1px solid #777;
 }
+.grayscale{
+  filter: grayscale(0.1);
+}
+
+.svg-white{
+  filter: invert(100%) sepia(0%) saturate(7433%) hue-rotate(284deg) brightness(118%) contrast(93%);
 }
 /*--------------------------------------------------------------
 # Preloader
